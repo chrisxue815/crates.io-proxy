@@ -28,3 +28,6 @@ Set up index repo:
     ```
 
 ```cargo build``` should work now. If not, try deleting or renaming ```~/.cargo/registry``` and ```PROJECT_DIR/target```
+
+# License
+* [ISC License](https://github.com/chrisxue815/crates.io-proxy/blob/master/LICENSE) ([What is it?](http://choosealicense.com/licenses/isc/))
