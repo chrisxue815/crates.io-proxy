@@ -1,0 +1,25 @@
+{
+  "name": "crates.io-proxy",
+  "version": "1.0.0",
+  "description": "A crates.io proxy which helps to bypass https://github.com/rust-lang/cargo/issues/1180",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisxue815/crates.io-proxy.git"
+  },
+  "keywords": [
+    "rust",
+    "crates.io",
+    "proxy",
+    "sslVerify"
+  ],
+  "author": "Chris Xue <chrisxue815@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.69.0"
+  }
+}
