@@ -1,3 +1,5 @@
+'use strict';
+
 const commander = require('commander');
 const http = require('http');
 const request = require('request');
