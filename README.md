@@ -8,7 +8,7 @@ Set up crates.io proxy:
 1. ```git clone https://github.com/chrisxue815/crates.io-proxy.git```
 1. ```cd crates.io-proxy```
 1. ```npm config set strict-ssl false```
-1. ```npm init```
+1. ```npm install```
 1. ```node index.js --port 3000 --proxy PROXY_ADDRESS```
 1. Open ```http://127.0.0.1:3000/api/v1/crates/libc/0.2.6/download``` in your browser to make sure the proxy is working
 
